@@ -1,5 +1,5 @@
 const NUMS_OF_USERS = 7
-const NUMS_OF_POKEMON = 949
+const NUMS_OF_POKEMON = 500
 
 class APIManager {
     tempData = {}
@@ -26,7 +26,7 @@ class APIManager {
     }
 
     getQuote() {
-        const tempdata = this.data
+        const tempdata = data
         $.ajax(
             {
                 method: "GET",

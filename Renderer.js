@@ -38,7 +38,7 @@ class Renderer {
     putQuote() {
         this.quot_container.append(`
         <div id="textFavorite">Favarite quote :</div>
-        <p>${m.data.quote}</p>
+        <p>${m.data.quotee}</p>
         `)
         
     }
